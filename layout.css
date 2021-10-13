@@ -2,19 +2,24 @@ body {
     font-family: Arial;
     background-color:rgb(236, 224, 202);
     width: 90%;
+    margin: 30px
 }
+
 header {
     background-color:rgb(196, 232, 233);
     padding: 30px;
-    text-align: center;
+    text-align: left;
     font-size: 35px;
     color: gray;
 }
 nav {
-    width: 100%;
     background-color:white;
-    padding: 10px;
     font-size: 20px;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
 }
 
 h1 {
@@ -39,4 +44,4 @@ p {
 
 aside {
     float: right;
-    padding: 30px;
+}

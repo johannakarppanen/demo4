@@ -17,8 +17,8 @@ header {
 
 div {
     float: right;
-    width: 70%;
-    xpadding: 10px;
+    width: 45%;
+    padding: 10px;
     background-color: antiquewhite;
   }
   
@@ -32,16 +32,13 @@ nav {
     background: rgb(255, 255, 255);
     padding: 20px;
   }
-  footer {
-    background-color: #777;
-    padding: 10px;
-    width: 100%;
-    text-align: center;
-    color: white;
-  }
+ 
   @media (max-width: 600px) {
     nav, article {
       width: 100%;
       height: auto;
     }
+  }
+  a:hover {
+    color: red;
   }

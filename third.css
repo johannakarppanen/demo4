@@ -4,10 +4,24 @@ body {
     width: 90%;
     margin: 30px
 }
-header {
-    background-color:rgb(196, 232, 233);
-    padding: 30px;
-    text-align: left;
-    font-size: 35px;
-    color: gray;
+{
+    box-sizing: border-box;
+  }
+
+div {
+    float: right;
+    width: 45%;
+    padding: 10px;
+    background-color: antiquewhite;
+  }
+  
 }
+nav ul { list-style-type: none; } 
+nav a { text-decoration: none; } 
+
+nav {
+    float: left;
+    width: 15%;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+  }
